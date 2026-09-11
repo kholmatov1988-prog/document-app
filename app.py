@@ -1,3 +1,5 @@
+
+import streamlit as st
 st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
@@ -5,7 +7,6 @@ st.markdown("""
     header {visibility: hidden;}
     </style>
 """, unsafe_allow_html=True)
-import streamlit as st
 import qrcode
 from PIL import Image
 import io
