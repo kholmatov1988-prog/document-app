@@ -22,7 +22,7 @@ import uuid
 BASE_UPLOAD_DIR = "levakant_multiusers_documents"
 if not os.path.exists(BASE_UPLOAD_DIR):
     os.makedirs(BASE_UPLOAD_DIR)
-
+7
 # Рӯйхати давраҳои ҳисоботӣ
 REPORT_PERIODS = ["3-моҳа", "6-моҳа", "9-моҳа", "Солона"]
 
@@ -233,8 +233,8 @@ elif not st.session_state.logged_in:
 
         st.markdown("""
             <div style='margin-top: 20px; font-size: 11px; color: #64748b; background: #f8fafc; padding: 10px; border-radius: 8px;'>
-                <b>Маълумот:</b> Пароли ҳамаи мактабҳо <code>123</code> аст.<br>
-                Админ: <code>admin</code> (парол: <code>admin2026</code>)
+                <b>Маълумот:</b><code></code> аст.<br>
+                 <code></code><code></code>)
             </div>
             </div>
         """, unsafe_allow_html=True)
@@ -273,7 +273,7 @@ else:
             st.success(f"✅ Файл қабул шуд: **{uploaded_file.name}**")
 
         doc_title = st.text_input("Номи Ҳуҷҷат / Фармоиш", placeholder="Фармоиши рақами...")
-        signer_fio = st.text_input("Ф.И.О. Шахси масъул / Директор", placeholder="Қодиров С.")
+        signer_fio = st.text_input("Ф.И.О. Шахси масъул / Директор", placeholder="Холматов Б.")
         base_website = st.text_input("Линки Сервер (URL)", placeholder="https://your-app.streamlit.app")
 
         st.markdown("### 📍 Мавқеи ҷойгиршавии QR-код дар ҳуҷҷат")
