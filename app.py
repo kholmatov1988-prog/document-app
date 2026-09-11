@@ -19,7 +19,7 @@ REPORT_PERIODS = ["3-моҳа", "6-моҳа", "9-моҳа", "Солона"]
 
 # Рӯйхати муассисаҳо ва админ
 USERS_DB = {
-    "admin": {"password": "admin2026", "name": "Сардори Раёсат / Админ", "role": "admin"},
+    "admin": {"password":, "name": "Сардори Раёсат / Админ", "role": "admin"},
     "mtmu1": {"password": "123", "name": "МТМУ №1", "role": "user"},
     "mtmu2": {"password": "123", "name": "МТМУ №2", "role": "user"},
     "mtmu3": {"password": "123", "name": "МТМУ №3", "role": "user"},
